@@ -35,6 +35,18 @@ console.log(v2);
 v2 = "hello";
 console.log(v2);
 //never: never allow anything to save just blank
-let v3 = 10;
+let v3 = 10; // cannot assign any value 
 console.log(v3);
+//union type: when we want that a variable can contain more than 1 type not any
+let d = "hello";
+console.log(d);
+d = 10;
+console.log(d);
+d = true; //not allowed as it can only take either number or string as defined above
+console.log(d);
+let status = "success"; //allowed
+console.log(status);
+status = "pending";
+console.log(status);
+status = "hi"; //not allowed
 //# sourceMappingURL=index.js.map
