@@ -24,4 +24,9 @@ let sum = (a, b) => {
     return a + b;
 };
 console.log(sum(5, 10));
+let avg = (a, b, c = 20) => {
+    console.log((a + b + c) / 3);
+};
+avg(5, 10, 15);
+avg(5, 10);
 //# sourceMappingURL=index.js.map

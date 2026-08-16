@@ -48,3 +48,11 @@ let sum = (a:number,b:number):number=>{
 }
 
 console.log(sum(5,10));
+
+let avg = (a:number,b:number,c:number=20):void=>{
+    console.log((a+b+c)/3);
+}
+
+avg(5,10,15);
+avg(5,10);
+
