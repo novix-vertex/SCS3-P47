@@ -29,4 +29,12 @@ let avg = (a, b, c = 20) => {
 };
 avg(5, 10, 15);
 avg(5, 10);
+let addition = (...arr) => {
+    console.log(arr);
+    return arr.reduce((acc, value) => {
+        return acc + value;
+    }, 0);
+};
+let add = addition(1, 2, 3, 4, 5);
+console.log(add);
 //# sourceMappingURL=index.js.map
